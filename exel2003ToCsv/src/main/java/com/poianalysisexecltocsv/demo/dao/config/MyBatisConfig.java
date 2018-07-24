@@ -33,7 +33,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer {
     public SqlSessionFactory sqlSessionFactoryBean() {
         SqlSessionFactoryBean bean = new SqlSessionFactoryBean();
         bean.setDataSource(dataSource);
-        bean.setTypeAliasesPackage("com.rskytech.am.model");
+        bean.setTypeAliasesPackage("com.poianalysisexecltocsv.demo.bean");
         org.apache.ibatis.session.Configuration configuration = new org.apache.ibatis.session.Configuration();
         // 启用下划线与驼峰式命名规则的映射（如first_name => firstName）  
         configuration.setMapUnderscoreToCamelCase(true);
@@ -53,7 +53,7 @@ public class MyBatisConfig implements TransactionManagementConfigurer {
         //添加XML目录
         ResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
         try {
-            bean.setMapperLocations(resolver.getResources("classpath:mybaits/*.xml"));
+            bean.setMapperLocations(resolver.getResources("classpath:mybatis/mapper/*/*.xml"));
             return bean.getObject();
         } catch (Exception e) {
             e.printStackTrace();

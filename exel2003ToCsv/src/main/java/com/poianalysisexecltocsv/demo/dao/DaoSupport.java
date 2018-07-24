@@ -13,7 +13,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * @author FH Q313596790
+ * @author lizehua 2018-07-24 17:05 pm
  * 修改时间：2015、12、11
  */
 @Repository("daoSupport")
@@ -38,7 +38,7 @@ public class DaoSupport implements DAO {
      * 批量更新
      *
      * @param str
-     * @param obj
+     * @param objs
      * @return
      * @throws Exception
      */
@@ -66,7 +66,7 @@ public class DaoSupport implements DAO {
      * 自定义批量更新
      *
      * @param str
-     * @param obj
+     * @param objs
      * @return
      * @throws Exception
      */
@@ -112,7 +112,7 @@ public class DaoSupport implements DAO {
      * 批量更新
      *
      * @param str
-     * @param obj
+     * @param objs
      * @return
      * @throws Exception
      */
@@ -138,7 +138,7 @@ public class DaoSupport implements DAO {
      * 批量更新
      *
      * @param str
-     * @param obj
+     * @param objs
      * @return
      * @throws Exception
      */
