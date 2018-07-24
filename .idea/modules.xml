@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/exel2003ToCsv/exel2003ToCsv.iml" filepath="$PROJECT_DIR$/exel2003ToCsv/exel2003ToCsv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/poiAnalysisExeclToCsv.iml" filepath="$PROJECT_DIR$/poiAnalysisExeclToCsv.iml" />
+    </modules>
+  </component>
+</project>
